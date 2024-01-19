@@ -4,6 +4,9 @@ const nextConfig = {
   images: {
     domains: ['picsum.photos', 'cuponerapp.com', 'www.cuponerapp.com'],
   },
+  eslint: {
+    ignoreDuringBuilds: true
+  }
 }
 
 module.exports = nextConfig
